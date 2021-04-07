@@ -1,0 +1,45 @@
+.user-container {
+  align-content: space-between;
+  background-color: #9aa190;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  margin: 0px 15px 20px 15px;
+  padding: 5px;
+  height: 167px;
+  width: 250px;
+  border: 2px solid black;
+
+  .meta-data {
+    display: flex;
+    width: max-content;
+    font-size: xx-large;
+    margin: 5px;
+  }
+
+  .pairs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .type {
+    font-weight: 600;
+    font-size: medium;
+    margin: 0px 0px 3px 8px;
+  }
+
+  .user-name {
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .user-email-city {
+    margin: 0px 0px 5px 10px;
+    font-size: 15px;
+  }
+
+}

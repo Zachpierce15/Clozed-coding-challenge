@@ -1,0 +1,15 @@
+.App {
+  height: auto;
+  width: auto;
+
+  h2 {
+    text-align: center;
+  }
+
+  .profile-page {
+    height: 845px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
